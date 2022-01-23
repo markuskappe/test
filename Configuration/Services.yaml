@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  DIX\Test\:
+    resource: '../Classes/*'
+
+  DIX\Test\Command\DoThingsCommand:
+    tags:
+      - name: 'console.command'
+        command: 'yourext:dothings'
+        schedulable: false

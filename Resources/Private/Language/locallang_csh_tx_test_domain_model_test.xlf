@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:test/Resources/Private/Language/locallang_csh_tx_test_domain_model_test.xlf" date="2022-01-23T09:36:23Z" product-name="test">
+		<header/>
+		<body>
+			<trans-unit id="demo.description" resname="demo.description">
+				<source>demo</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
